@@ -1,0 +1,853 @@
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+nav {
+    justify-content: space-between;
+    background-color: rgb(255, 255, 248);
+    display: flex;
+    height: 3.4rem;
+}
+
+nav .logo {
+    margin-left: 19rem;
+}
+
+nav .navbar-nav a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    margin: 15px;
+    padding: 2px;
+    color: black;
+    font-size: 1rem;
+}
+
+nav .navbar-nav a span {
+    color: rgb(186, 80, 248);
+}
+
+.navbar {
+    margin-right: 10rem;
+    margin-top: 0.9rem;
+}
+
+.container1 {
+    background-color: rgba(240, 242, 255, 255);
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 h2 {
+    font-family: "Work Sans", sans-serif;
+    width: 25rem;
+    height: 10rem;
+    font-size: 60px;
+    margin-bottom: 15rem;
+}
+
+.container1 .text {
+    margin-left: 19rem;
+    margin-bottom: 200px;
+}
+
+.container1 .text p {
+    font-family: "Work Sans", sans-serif;
+    width: 30rem;
+    height: 2rem;
+    font-size: 20px;
+    position: relative;
+    color: rgb(148, 144, 138);
+}
+
+.container1 .text .button1 a {
+    background-color: rgb(58, 16, 228);
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 4rem;
+    display: flex;
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    border-radius: 3%;
+    padding: 0.5rem;
+}
+
+.container1 .text .button1 a img {
+    margin-left: 60px;
+}
+
+.container1 .image1 img {
+    display: flex;
+    margin-right: 6rem;
+    margin-bottom: 10rem;
+}
+.container2 {
+    background-color: rgb(250, 203, 59);
+    height: 100%;
+    padding: 6px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container2 .awal {
+    display: flex;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    text-align: end;
+    justify-content: space-around;
+}
+
+.container2 .isi {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.container2 img {
+    width: 30px;
+}
+
+.container3 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 3.6rem;
+}
+
+section .container3 {
+    justify-content: space-between;
+    display: flex;
+    height: 3.4rem;
+}
+
+.logo {
+    margin-left: 19rem;
+    font-size: 18px;
+}
+
+section .content a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    margin: 15px;
+    padding: 2px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+section .logo span {
+    color: rgb(186, 80, 248);
+}
+
+section .kepala .content {
+    margin-right: 10rem;
+    margin-top: 0.9rem;
+}
+
+section .content a:hover {
+    background-color: #eee3e3;
+    border-radius: 5%;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.lesson {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lesson .kursus {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 77%;
+}
+
+.lesson .kursus .text {
+    font-size: 12px;
+    color: blueviolet;
+    font-family: "Work Sans", sans-serif;
+    margin: 8px;
+    margin-top: 20px;
+}
+
+.lesson .kursus p {
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lesson .kursus .text b p {
+    background-color: rgb(0, 255, 255);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Adjust as needed */
+ }
+ .background-image {
+    height: auto;
+    display: block;
+}
+
+.foreground-image {
+    position: absolute;
+    top: 17px;
+    left: 19px;
+    height: auto;
+    z-index: 1;
+}
+
+.lesson .kursus .kursus1 {
+    background-color: aliceblue;
+    margin: 49px;
+}
+
+.lesson .kursus .kursus2 {
+    background-color: aliceblue;
+    margin: 49px;
+}
+
+.lesson .kursus .kursus3 {
+    background-color: aliceblue;
+    margin: 49px;
+}
+
+.lesson .kursus .kursus4 {
+    background-color: aliceblue;
+    margin: 49px;
+}
+
+.lesson .kursus .contentunder {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.lesson .kursus .contentunder p {
+    margin-right: 2rem;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.membership {
+    background-color: rgb(254, 240, 229);
+    display: flex;
+    padding: 2em;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.membership p {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 40px;
+    width: 29rem;
+    font-size: 30px;
+    display: block;
+}
+
+.membership img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.membership a {
+    background-color: #5856D6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #4442B9;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+}
+
+.title3 {
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 90px;
+}
+
+.populer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18rem;
+    height: 13rem;
+}
+
+.populer .pop {
+    display: flex;
+    width: 100%;
+}
+
+.populer .pop h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.populer .pop p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.populer .pop1 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+.populer .pop1 .image1 {
+    background-color: rgba(239, 240, 253, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.populer .pop2 .image2 {
+    background-color: rgba(239, 240, 253, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.populer .pop3 .image3 {
+    background-color: rgba(239, 240, 253, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.populer .pop4 .image4 {
+    background-color: rgba(239, 240, 253, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.populer .pop2 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer .pop3 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer .pop4 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer2 {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18rem;
+    height: 30px;
+}
+
+.populer2 .pop {
+    display: flex;
+    width: 100%;
+}
+
+.populer2 .pop h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.populer2 .pop p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.populer2 .pop1 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer2 .pop2 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer2 .pop3 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+
+.populer2 .pop4 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    margin: 2rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 6%;
+    height: 30px;
+}
+.Explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+.Explore a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #4935b0;
+}
+
+.tingkatkanskill {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2ff;
+    width: 50%;
+    padding: 6rem;
+    margin-left: 22rem;
+    height: 20rem;
+    margin-bottom: 7rem;
+}
+
+.tingkatkanskill .text h1 {
+    font-family: "Open Sans", sans-serif;
+    margin: 3rem;
+    font-size: 35px;
+    width: 70%;
+}
+
+.tingkatkanskill .text p {
+    width: 24rem;
+    display: flex;
+    margin: 50px;
+    font-family: "Open Sans", sans-serif;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.tingkatkanskill .text a {
+    text-decoration: none;
+    background-color: #3c0fe5;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    border-radius: 4%;
+    padding: 14px;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 3.7rem;
+}
+
+.tingkatkanskill img {
+    width: 350px;
+    height: 350px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 9rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.konten {
+    display: flex;
+    justify-content: center;
+    margin-left: 6.4rem;
+}
+
+.event .content1 h3 {
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    text-align: left;
+    font-size: 17px;
+}
+
+.event .content1 .Number {
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    font-size: 20px;
+    color: #3c0fe5;
+}
+
+.event .content1 .desk .lokasi {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 14px;
+    border-left: 2px solid rgb(224, 221, 221);
+    margin-left: 6px;
+    padding-left: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.event .content1 .desk .text {
+    display: flex;
+    font-size: 14px;
+}
+footer {
+    background-color: rgb(9, 14, 34);
+    margin-top: 4rem;
+}
+
+footer .container .row .footer-col {
+    text-align: center;
+    margin: 50px 122px 9px;
+    width: 9rem;
+}
+
+footer .container .row .footer-col .text {
+    color: #fff;
+}
+
+footer .container .row .footer-col .text1 {
+    color: #fff;
+    width: 19rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    font-size: 15px;
+}
+
+footer .container .row .footer-col .text1 p {
+    color: rgb(111, 116, 132);
+    width: 19rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    font-size: 15px;
+}
+
+footer .container .row .footer-col .icon1 img {
+    margin-top: 1rem;
+    display: flex;
+    float: left;
+    padding: 9px;
+}
+
+footer .container .row .footer-col h3 {
+    color: #fff;
+    margin-bottom: 2.1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+footer .container .row {
+    justify-content: center;
+    display: flex;
+    height: 18rem;
+}
+
+footer .container .row .footer-col .ground .icon img {
+    background-color: rgb(226, 228, 235);
+    padding: 0.7rem;
+    border-radius: 4%;
+}
+
+footer .container .row .footer-col .text p {
+    color: rgb(111, 116, 132);
+    padding: 9px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+.sb {
+    color: rgb(111, 116, 132);
+    border-top: 1px solid gray;
+    width: 69%;
+    margin: 0px 300px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.sb .teks .button {
+    display: flex;
+    padding: 1px 2px 2px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 40rem;
+    font-size: 15px;
+}
+
+.sb .logokanan {
+    display: flex;
+    color: rgb(111, 116, 132);
+    font-size: 12px;
+    justify-content: right;
+    padding: 0px 0px 30px;
+}
+
+@media screen and (max-width:1024px) and (max-height:768px) {
+        
+        nav {
+            justify-content: space-between;
+            background-color: rgb(255, 255, 248);
+            display: flex;
+            height: 3.9rem;
+        }
+        nav .logo {
+            margin-left: 6rem;
+        }
+        nav .navbar-nav a {
+            text-decoration: none;
+            font-family: "Work Sans", sans-serif;
+            margin: 9px;
+            padding: 1px;
+            color: black;
+            font-size: 0.7rem;
+        }
+        nav .navbar-nav a span {
+            color: rgb(186, 80, 248);
+        }
+        .navbar {
+            margin-right: 5rem;
+            margin-top: 0.9rem;
+        }
+        .container1 {
+            background-color: rgba(240, 242, 255, 255);
+            width: 100%;
+            height: 100%;
+            padding-top: 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container1 h2 {
+            font-family: "Work Sans", sans-serif;
+            width: 25rem;
+            height: 10rem;
+            font-size: 40px;
+            margin-bottom: 4rem;
+        }
+        .container1 .text {
+            margin-left: 8rem;
+            margin-bottom: 200px;
+        }
+        .container1 .text p {
+            font-family: "Work Sans", sans-serif;
+            width: 25rem;
+            height: 2rem;
+            font-size: 14px;
+            position: relative;
+            color: rgb(148, 144, 138);
+        }
+        .container1 .text .button1 a {
+            background-color: rgb(58, 16, 228);
+            text-decoration: none;
+            font-size: 12px;
+            margin-top: 4rem;
+            display: flex;
+            width: 10rem;
+            color: rgb(255, 255, 255);
+            font-family: "Work Sans", sans-serif;
+            border-radius: 3%;
+            padding: 0.5rem;
+            margin-left: 3rem;
+        }
+        .container1 .text .button1 a img {
+            margin-left: 60px;
+        }
+        .container1 .image1 img {
+            display: flex;
+            margin-right: 6rem;
+            margin-bottom: 10rem;
+            width: 25rem;
+        }
+        .container2 {
+            background-color: rgb(250, 203, 59);
+            height: 100%;
+            padding: 6px;
+            font-family: "Work Sans", sans-serif;
+        }
+        .container2 .awal {
+            display: flex;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+            text-align: end;
+            justify-content: space-around;
+        }
+        .container2 .isi {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        .container2 img {
+            width: 23px;
+        }
+        .container3 {
+            font-family: "Work Sans", sans-serif;
+            margin-top: 3.6rem;
+        }
+        section .container3 {
+            justify-content: space-between;
+            display: flex;
+            height: 3.4rem;
+        }
+        .logo {
+            margin-left: 6rem;
+            font-size: 14px;
+        }
+        section .content a {
+            text-decoration: none;
+            font-family: "Work Sans", sans-serif;
+            margin: 15px;
+            padding: 2px;
+            color: black;
+            font-size: 0.8rem;
+        }
+        section .logo span {
+            color: rgb(186, 80, 248);
+        }
+        section .kepala .content {
+            margin-right: 1.5rem;
+            margin-top: 1rem;
+        }
+        section .content a:hover {
+            background-color: #eee3e3;
+            border-radius: 5%;
+            transition: 1s;
+            font-size: 20px;
+        }
+        .lesson {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .lesson .kursus {
+            display: flex;
+            justify-content: space-between;
+            float: left;
+            width: 100%;
+        }
+        .lesson .kursus .text {
+            font-size: 12px;
+            color: blueviolet;
+            font-family: "Work Sans", sans-serif;
+            margin: 8px;
+            margin-top: 20px;
+        }
+        .lesson .kursus p {
+            font-size: 18px;
+            font-family: "Work Sans", sans-serif;
+        }
+        .lesson .kursus .text b p {
+            background-color: rgb(0, 255, 255);
+        }
+        .image-container {
+            position: relative;
+            width: 100%;
+            /* Adjust as needed */
+        }
+        .background-image {
+            height: auto;
+            display: block;
+        }
+        .foreground-image {
+            position: absolute;
+            top: 17px;
+            left: 19px;
+            height: auto;
+            z-index: 1;
+        }
+        .lesson .kursus .kursus1 {
+            background-color: aliceblue;
+            margin: 49px;
+        }
+        .lesson .kursus .kursus2 {
+            background-color: aliceblue;
+            margin: 49px;
+        }
+        .lesson .kursus .kursus3 {
+            background-color: aliceblue;
+            margin: 49px;
+        }
+        .lesson .kursus .kursus4 {
+            background-color: aliceblue;
+            margin: 49px;
+        }
+        .lesson .kursus .contentunder {
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .lesson .kursus .contentunder p {
+            margin-right: 2rem;
+            display: flex;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+        }
+        section .lesson .kursus {
+            height: 10%;
+        }
+    }
